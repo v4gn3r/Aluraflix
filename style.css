@@ -1,40 +1,59 @@
-body{
+body {
     color: white;
     background: black;
-    margin:0px;
+    margin: 0px;
     font-family: "Roboto Mono", monospace;
+    margin-bottom: 100px;
 }
-header{
+
+header {
     border-bottom: solid 1px rgb(101, 162, 219);
     padding: 10px;
     font-size: 32px;
     color: rgb(101, 162, 219);
 }
-.chamada{
+
+.chamada {
     background: rgb(83 5 157);
     padding-bottom: 35px;
     padding-top: 35px;
     display: flex;
     justify-content: center;
 }
-.chamada_texto{
-    margin-right:5% ;
+
+.chamada_texto {
+    margin-right: 5%;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
-.categoria-videos{
+
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    
 }
-.categoria{
+
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+}
+
+.categoria h2{
+    color:aqua;
 }
